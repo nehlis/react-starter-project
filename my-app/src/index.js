@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Toggle from './Toggle'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Toggle title={'Toggle mij'} id={'2323'}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
