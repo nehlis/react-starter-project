@@ -6,7 +6,7 @@ const Buttons = () => {
   return (
     <div>
       <Like setLikes={setLikes} likes={likes} />
-      {likes > 0 ?? <Unlike setLikes={setLikes} likes={likes} />}
+      {likes > 0 && <Unlike setLikes={setLikes} likes={likes} />}
     </div>
   )
 }

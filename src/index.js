@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Toggle from './Toggle'
 import reportWebVitals from './reportWebVitals';
+import Buttons from "./LikeButton";
 
 ReactDOM.render(
   <React.StrictMode>
     <Toggle title={'Toggle mij'} id={'2323'}/>
+    <Buttons />
   </React.StrictMode>,
   document.getElementById('root')
 );

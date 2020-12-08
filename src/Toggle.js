@@ -6,10 +6,21 @@ const Toggle = ({ title, id }) => {
 
   return (
     <section className="wrapper" title="title">
-      <input id={id} name="name" checked={toggled} className="toggle" type="checkbox"
-             onClick={() => setToggled(!toggled)} />
-      <label htmlFor={id} className="toggler" />
-      <span className="title" onClick={() => setToggled(!toggled)}>{title}</span>
+      <input
+        id={id}
+        name="name"
+        checked={toggled}
+        className="toggle"
+        type="checkbox"
+        onClick={() => setToggled(!toggled)}
+      />
+      <label
+        htmlFor={id}
+        className="toggler"
+      />
+      <span className="title" onClick={() => setToggled(!toggled)}>
+        {title}
+      </span>
     </section>
   )
 }
